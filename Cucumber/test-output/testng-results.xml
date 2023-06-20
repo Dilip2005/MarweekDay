@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="17015" started-at="2023-05-04T13:06:05 IST" finished-at="2023-05-04T13:06:22 IST">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.RunnerClass@548ad73b]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test name="Default test" duration-ms="17015" started-at="2023-05-04T13:06:05 IST" finished-at="2023-05-04T13:06:22 IST">
+      <class name="runner.RunnerClass">
+        <test-method status="PASS" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:runner.RunnerClass@548ad73b]" name="setUpClass" is-config="true" duration-ms="948" started-at="2023-05-04T13:06:05 IST" finished-at="2023-05-04T13:06:06 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@86733]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.RunnerClass@548ad73b]" name="runScenario" duration-ms="8919" started-at="2023-05-04T13:06:06 IST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-05-04T13:06:15 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Login to Negative Data"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Login to LeafTaps Applications"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.RunnerClass@548ad73b]" name="runScenario" duration-ms="4468" started-at="2023-05-04T13:06:15 IST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-05-04T13:06:19 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Login to Positive Data"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Login to LeafTaps Applications"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:runner.RunnerClass@548ad73b]" name="tearDownClass" is-config="true" duration-ms="2621" started-at="2023-05-04T13:06:19 IST" finished-at="2023-05-04T13:06:22 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- runner.RunnerClass -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
